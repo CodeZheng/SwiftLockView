@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849A1CF61E6514AC00AF799D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A1CF51E6514AC00AF799D /* AppDelegate.swift */; };
+		849A1CF81E6514AC00AF799D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A1CF71E6514AC00AF799D /* ViewController.swift */; };
+		849A1CFB1E6514AC00AF799D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A1CF91E6514AC00AF799D /* Main.storyboard */; };
+		849A1CFD1E6514AC00AF799D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849A1CFC1E6514AC00AF799D /* Assets.xcassets */; };
+		849A1D001E6514AC00AF799D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A1CFE1E6514AC00AF799D /* LaunchScreen.storyboard */; };
+		849A1D0B1E6514AC00AF799D /* ZXLockViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A1D0A1E6514AC00AF799D /* ZXLockViewTests.swift */; };
+		849A1D161E6514AC00AF799D /* ZXLockViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A1D151E6514AC00AF799D /* ZXLockViewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849A1D071E6514AC00AF799D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849A1CEA1E6514AC00AF799D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849A1CF11E6514AC00AF799D;
+			remoteInfo = ZXLockView;
+		};
+		849A1D121E6514AC00AF799D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 849A1CEA1E6514AC00AF799D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849A1CF11E6514AC00AF799D;
+			remoteInfo = ZXLockView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		849A1CF21E6514AC00AF799D /* ZXLockView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXLockView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		849A1CF51E6514AC00AF799D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		849A1CF71E6514AC00AF799D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		849A1CFA1E6514AC00AF799D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		849A1CFC1E6514AC00AF799D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849A1CFF1E6514AC00AF799D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		849A1D011E6514AC00AF799D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849A1D061E6514AC00AF799D /* ZXLockViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXLockViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849A1D0A1E6514AC00AF799D /* ZXLockViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXLockViewTests.swift; sourceTree = "<group>"; };
+		849A1D0C1E6514AC00AF799D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849A1D111E6514AC00AF799D /* ZXLockViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXLockViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		849A1D151E6514AC00AF799D /* ZXLockViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXLockViewUITests.swift; sourceTree = "<group>"; };
+		849A1D171E6514AC00AF799D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849A1CEF1E6514AC00AF799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A1D031E6514AC00AF799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A1D0E1E6514AC00AF799D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849A1CE91E6514AC00AF799D = {
+			isa = PBXGroup;
+			children = (
+				849A1CF41E6514AC00AF799D /* ZXLockView */,
+				849A1D091E6514AC00AF799D /* ZXLockViewTests */,
+				849A1D141E6514AC00AF799D /* ZXLockViewUITests */,
+				849A1CF31E6514AC00AF799D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		849A1CF31E6514AC00AF799D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				849A1CF21E6514AC00AF799D /* ZXLockView.app */,
+				849A1D061E6514AC00AF799D /* ZXLockViewTests.xctest */,
+				849A1D111E6514AC00AF799D /* ZXLockViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		849A1CF41E6514AC00AF799D /* ZXLockView */ = {
+			isa = PBXGroup;
+			children = (
+				849A1CF51E6514AC00AF799D /* AppDelegate.swift */,
+				849A1CF71E6514AC00AF799D /* ViewController.swift */,
+				849A1CF91E6514AC00AF799D /* Main.storyboard */,
+				849A1CFC1E6514AC00AF799D /* Assets.xcassets */,
+				849A1CFE1E6514AC00AF799D /* LaunchScreen.storyboard */,
+				849A1D011E6514AC00AF799D /* Info.plist */,
+			);
+			path = ZXLockView;
+			sourceTree = "<group>";
+		};
+		849A1D091E6514AC00AF799D /* ZXLockViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				849A1D0A1E6514AC00AF799D /* ZXLockViewTests.swift */,
+				849A1D0C1E6514AC00AF799D /* Info.plist */,
+			);
+			path = ZXLockViewTests;
+			sourceTree = "<group>";
+		};
+		849A1D141E6514AC00AF799D /* ZXLockViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				849A1D151E6514AC00AF799D /* ZXLockViewUITests.swift */,
+				849A1D171E6514AC00AF799D /* Info.plist */,
+			);
+			path = ZXLockViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849A1CF11E6514AC00AF799D /* ZXLockView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849A1D1A1E6514AC00AF799D /* Build configuration list for PBXNativeTarget "ZXLockView" */;
+			buildPhases = (
+				849A1CEE1E6514AC00AF799D /* Sources */,
+				849A1CEF1E6514AC00AF799D /* Frameworks */,
+				849A1CF01E6514AC00AF799D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXLockView;
+			productName = ZXLockView;
+			productReference = 849A1CF21E6514AC00AF799D /* ZXLockView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		849A1D051E6514AC00AF799D /* ZXLockViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849A1D1D1E6514AC00AF799D /* Build configuration list for PBXNativeTarget "ZXLockViewTests" */;
+			buildPhases = (
+				849A1D021E6514AC00AF799D /* Sources */,
+				849A1D031E6514AC00AF799D /* Frameworks */,
+				849A1D041E6514AC00AF799D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849A1D081E6514AC00AF799D /* PBXTargetDependency */,
+			);
+			name = ZXLockViewTests;
+			productName = ZXLockViewTests;
+			productReference = 849A1D061E6514AC00AF799D /* ZXLockViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		849A1D101E6514AC00AF799D /* ZXLockViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849A1D201E6514AC00AF799D /* Build configuration list for PBXNativeTarget "ZXLockViewUITests" */;
+			buildPhases = (
+				849A1D0D1E6514AC00AF799D /* Sources */,
+				849A1D0E1E6514AC00AF799D /* Frameworks */,
+				849A1D0F1E6514AC00AF799D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				849A1D131E6514AC00AF799D /* PBXTargetDependency */,
+			);
+			name = ZXLockViewUITests;
+			productName = ZXLockViewUITests;
+			productReference = 849A1D111E6514AC00AF799D /* ZXLockViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		849A1CEA1E6514AC00AF799D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					849A1CF11E6514AC00AF799D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3966VA87CB;
+						ProvisioningStyle = Automatic;
+					};
+					849A1D051E6514AC00AF799D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3966VA87CB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 849A1CF11E6514AC00AF799D;
+					};
+					849A1D101E6514AC00AF799D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 3966VA87CB;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 849A1CF11E6514AC00AF799D;
+					};
+				};
+			};
+			buildConfigurationList = 849A1CED1E6514AC00AF799D /* Build configuration list for PBXProject "ZXLockView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 849A1CE91E6514AC00AF799D;
+			productRefGroup = 849A1CF31E6514AC00AF799D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				849A1CF11E6514AC00AF799D /* ZXLockView */,
+				849A1D051E6514AC00AF799D /* ZXLockViewTests */,
+				849A1D101E6514AC00AF799D /* ZXLockViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849A1CF01E6514AC00AF799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A1D001E6514AC00AF799D /* LaunchScreen.storyboard in Resources */,
+				849A1CFD1E6514AC00AF799D /* Assets.xcassets in Resources */,
+				849A1CFB1E6514AC00AF799D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A1D041E6514AC00AF799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A1D0F1E6514AC00AF799D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849A1CEE1E6514AC00AF799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A1CF81E6514AC00AF799D /* ViewController.swift in Sources */,
+				849A1CF61E6514AC00AF799D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A1D021E6514AC00AF799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A1D0B1E6514AC00AF799D /* ZXLockViewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		849A1D0D1E6514AC00AF799D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849A1D161E6514AC00AF799D /* ZXLockViewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		849A1D081E6514AC00AF799D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849A1CF11E6514AC00AF799D /* ZXLockView */;
+			targetProxy = 849A1D071E6514AC00AF799D /* PBXContainerItemProxy */;
+		};
+		849A1D131E6514AC00AF799D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849A1CF11E6514AC00AF799D /* ZXLockView */;
+			targetProxy = 849A1D121E6514AC00AF799D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		849A1CF91E6514AC00AF799D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849A1CFA1E6514AC00AF799D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		849A1CFE1E6514AC00AF799D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				849A1CFF1E6514AC00AF799D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		849A1D181E6514AC00AF799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		849A1D191E6514AC00AF799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		849A1D1B1E6514AC00AF799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3966VA87CB;
+				INFOPLIST_FILE = ZXLockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhengxinxin.ZXLockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		849A1D1C1E6514AC00AF799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 3966VA87CB;
+				INFOPLIST_FILE = ZXLockView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhengxinxin.ZXLockView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		849A1D1E1E6514AC00AF799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3966VA87CB;
+				INFOPLIST_FILE = ZXLockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhengxinxin.ZXLockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXLockView.app/ZXLockView";
+			};
+			name = Debug;
+		};
+		849A1D1F1E6514AC00AF799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 3966VA87CB;
+				INFOPLIST_FILE = ZXLockViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhengxinxin.ZXLockViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXLockView.app/ZXLockView";
+			};
+			name = Release;
+		};
+		849A1D211E6514AC00AF799D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3966VA87CB;
+				INFOPLIST_FILE = ZXLockViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhengxinxin.ZXLockViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZXLockView;
+			};
+			name = Debug;
+		};
+		849A1D221E6514AC00AF799D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 3966VA87CB;
+				INFOPLIST_FILE = ZXLockViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhengxinxin.ZXLockViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ZXLockView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849A1CED1E6514AC00AF799D /* Build configuration list for PBXProject "ZXLockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849A1D181E6514AC00AF799D /* Debug */,
+				849A1D191E6514AC00AF799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		849A1D1A1E6514AC00AF799D /* Build configuration list for PBXNativeTarget "ZXLockView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849A1D1B1E6514AC00AF799D /* Debug */,
+				849A1D1C1E6514AC00AF799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849A1D1D1E6514AC00AF799D /* Build configuration list for PBXNativeTarget "ZXLockViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849A1D1E1E6514AC00AF799D /* Debug */,
+				849A1D1F1E6514AC00AF799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		849A1D201E6514AC00AF799D /* Build configuration list for PBXNativeTarget "ZXLockViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				849A1D211E6514AC00AF799D /* Debug */,
+				849A1D221E6514AC00AF799D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 849A1CEA1E6514AC00AF799D /* Project object */;
+}
