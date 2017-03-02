@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="vc" id="BYZ-38-t0r" customClass="ViewController" customModule="ZXLockView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,159 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n9d-B4-LO9">
+                                <rect key="frame" x="87.5" y="83.5" width="200" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="绘制手势密码"/>
+                                <connections>
+                                    <action selector="setPassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CbZ-N8-XgJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ega-Gz-m3Y">
+                                <rect key="frame" x="87.5" y="283.5" width="200" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="QKm-HW-CMU"/>
+                                    <constraint firstAttribute="width" constant="200" id="SD8-in-PC8"/>
+                                    <constraint firstAttribute="width" constant="200" id="bcz-Am-VSW"/>
+                                    <constraint firstAttribute="height" constant="100" id="gUu-ig-Mq7"/>
+                                </constraints>
+                                <state key="normal" title="修改手势密码"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="QKm-HW-CMU"/>
+                                        <exclude reference="SD8-in-PC8"/>
+                                        <exclude reference="bcz-Am-VSW"/>
+                                        <exclude reference="gUu-ig-Mq7"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="QKm-HW-CMU"/>
+                                        <include reference="bcz-Am-VSW"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="SD8-in-PC8"/>
+                                        <include reference="gUu-ig-Mq7"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="changePassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="71W-Ug-Y1a"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="29Y-KC-axs">
+                                <rect key="frame" x="87.5" y="483.5" width="200" height="100"/>
+                                <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="验证手势密码"/>
+                                <connections>
+                                    <action selector="testPassword:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ktd-d9-zXu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ega-Gz-m3Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9GF-3e-GUy"/>
+                            <constraint firstItem="ega-Gz-m3Y" firstAttribute="height" secondItem="n9d-B4-LO9" secondAttribute="height" id="AL8-9R-mL2"/>
+                            <constraint firstItem="n9d-B4-LO9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ffj-G1-pj7"/>
+                            <constraint firstItem="ega-Gz-m3Y" firstAttribute="height" secondItem="n9d-B4-LO9" secondAttribute="height" id="IGN-Fb-LBr"/>
+                            <constraint firstItem="ega-Gz-m3Y" firstAttribute="top" secondItem="n9d-B4-LO9" secondAttribute="bottom" constant="100" id="K70-Mo-N0m"/>
+                            <constraint firstItem="29Y-KC-axs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Mij-3A-lhf"/>
+                            <constraint firstItem="29Y-KC-axs" firstAttribute="width" secondItem="ega-Gz-m3Y" secondAttribute="width" id="PhW-f0-j55"/>
+                            <constraint firstItem="ega-Gz-m3Y" firstAttribute="width" secondItem="n9d-B4-LO9" secondAttribute="width" id="W0H-D3-AKp"/>
+                            <constraint firstItem="29Y-KC-axs" firstAttribute="top" secondItem="ega-Gz-m3Y" secondAttribute="bottom" constant="20" id="Wz1-RS-RCi"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="n9d-B4-LO9" secondAttribute="bottom" constant="50" id="bUA-bq-zf2"/>
+                            <constraint firstItem="29Y-KC-axs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="f5b-ry-xGt"/>
+                            <constraint firstItem="ega-Gz-m3Y" firstAttribute="width" secondItem="n9d-B4-LO9" secondAttribute="width" id="hOZ-Fm-IIh"/>
+                            <constraint firstItem="29Y-KC-axs" firstAttribute="height" secondItem="ega-Gz-m3Y" secondAttribute="height" id="llj-FZ-X1b"/>
+                            <constraint firstItem="ega-Gz-m3Y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lmq-wg-Ddv"/>
+                            <constraint firstItem="29Y-KC-axs" firstAttribute="top" secondItem="ega-Gz-m3Y" secondAttribute="bottom" constant="100" id="md4-9w-TO2"/>
+                            <constraint firstItem="29Y-KC-axs" firstAttribute="width" secondItem="ega-Gz-m3Y" secondAttribute="width" id="nZS-65-Seh"/>
+                            <constraint firstItem="29Y-KC-axs" firstAttribute="height" secondItem="ega-Gz-m3Y" secondAttribute="height" id="oQe-rY-zuH"/>
+                            <constraint firstItem="ega-Gz-m3Y" firstAttribute="top" secondItem="n9d-B4-LO9" secondAttribute="bottom" constant="20" id="sWN-cM-swa"/>
+                            <constraint firstItem="ega-Gz-m3Y" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tEL-by-q8f"/>
+                            <constraint firstItem="n9d-B4-LO9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uo7-JQ-Bej"/>
+                            <constraint firstItem="ega-Gz-m3Y" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wF4-9G-BU7"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Ffj-G1-pj7"/>
+                                <exclude reference="uo7-JQ-Bej"/>
+                                <exclude reference="9GF-3e-GUy"/>
+                                <exclude reference="AL8-9R-mL2"/>
+                                <exclude reference="IGN-Fb-LBr"/>
+                                <exclude reference="K70-Mo-N0m"/>
+                                <exclude reference="W0H-D3-AKp"/>
+                                <exclude reference="hOZ-Fm-IIh"/>
+                                <exclude reference="lmq-wg-Ddv"/>
+                                <exclude reference="sWN-cM-swa"/>
+                                <exclude reference="tEL-by-q8f"/>
+                                <exclude reference="wF4-9G-BU7"/>
+                                <exclude reference="Mij-3A-lhf"/>
+                                <exclude reference="PhW-f0-j55"/>
+                                <exclude reference="Wz1-RS-RCi"/>
+                                <exclude reference="f5b-ry-xGt"/>
+                                <exclude reference="llj-FZ-X1b"/>
+                                <exclude reference="md4-9w-TO2"/>
+                                <exclude reference="nZS-65-Seh"/>
+                                <exclude reference="oQe-rY-zuH"/>
+                                <exclude reference="bUA-bq-zf2"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=compact-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="uo7-JQ-Bej"/>
+                                <include reference="IGN-Fb-LBr"/>
+                                <include reference="W0H-D3-AKp"/>
+                                <include reference="sWN-cM-swa"/>
+                                <include reference="tEL-by-q8f"/>
+                                <include reference="wF4-9G-BU7"/>
+                                <include reference="Mij-3A-lhf"/>
+                                <include reference="Wz1-RS-RCi"/>
+                                <include reference="llj-FZ-X1b"/>
+                                <include reference="nZS-65-Seh"/>
+                                <exclude reference="bUA-bq-zf2"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="Ffj-G1-pj7"/>
+                                <include reference="9GF-3e-GUy"/>
+                                <include reference="AL8-9R-mL2"/>
+                                <include reference="K70-Mo-N0m"/>
+                                <include reference="hOZ-Fm-IIh"/>
+                                <include reference="lmq-wg-Ddv"/>
+                                <include reference="PhW-f0-j55"/>
+                                <include reference="f5b-ry-xGt"/>
+                                <include reference="md4-9w-TO2"/>
+                                <include reference="oQe-rY-zuH"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="155.17241379310346" y="34.399999999999999"/>
+        </scene>
+        <!--Password View Controller-->
+        <scene sceneID="y5Y-8J-GNQ">
+            <objects>
+                <viewController storyboardIdentifier="pvc" id="B8G-Ak-2MH" customClass="PasswordViewController" customModule="ZXLockView" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Jpe-6L-JpH"/>
+                        <viewControllerLayoutGuide type="bottom" id="ldo-nf-rgm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="UAf-Ft-SkA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kWk-n7-p6u" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950" y="34"/>
         </scene>
     </scenes>
 </document>

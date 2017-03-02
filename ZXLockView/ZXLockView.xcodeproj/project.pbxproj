@@ -14,6 +14,11 @@
 		849A1D001E6514AC00AF799D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 849A1CFE1E6514AC00AF799D /* LaunchScreen.storyboard */; };
 		849A1D0B1E6514AC00AF799D /* ZXLockViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A1D0A1E6514AC00AF799D /* ZXLockViewTests.swift */; };
 		849A1D161E6514AC00AF799D /* ZXLockViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A1D151E6514AC00AF799D /* ZXLockViewUITests.swift */; };
+		849A1D261E65239400AF799D /* PasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A1D251E65239400AF799D /* PasswordViewController.swift */; };
+		849A1D281E6523C100AF799D /* ZXLockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849A1D271E6523C100AF799D /* ZXLockView.swift */; };
+		849A1D2C1E65254100AF799D /* 夜空.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 849A1D291E65254100AF799D /* 夜空.jpeg */; };
+		849A1D2D1E65254100AF799D /* 未选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 849A1D2A1E65254100AF799D /* 未选中.png */; };
+		849A1D2E1E65254100AF799D /* 选中.png in Resources */ = {isa = PBXBuildFile; fileRef = 849A1D2B1E65254100AF799D /* 选中.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,11 @@
 		849A1D111E6514AC00AF799D /* ZXLockViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXLockViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		849A1D151E6514AC00AF799D /* ZXLockViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXLockViewUITests.swift; sourceTree = "<group>"; };
 		849A1D171E6514AC00AF799D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		849A1D251E65239400AF799D /* PasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordViewController.swift; sourceTree = "<group>"; };
+		849A1D271E6523C100AF799D /* ZXLockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXLockView.swift; sourceTree = "<group>"; };
+		849A1D291E65254100AF799D /* 夜空.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "夜空.jpeg"; sourceTree = "<group>"; };
+		849A1D2A1E65254100AF799D /* 未选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "未选中.png"; sourceTree = "<group>"; };
+		849A1D2B1E65254100AF799D /* 选中.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "选中.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +107,13 @@
 		849A1CF41E6514AC00AF799D /* ZXLockView */ = {
 			isa = PBXGroup;
 			children = (
+				849A1D291E65254100AF799D /* 夜空.jpeg */,
+				849A1D2A1E65254100AF799D /* 未选中.png */,
+				849A1D2B1E65254100AF799D /* 选中.png */,
 				849A1CF51E6514AC00AF799D /* AppDelegate.swift */,
 				849A1CF71E6514AC00AF799D /* ViewController.swift */,
+				849A1D251E65239400AF799D /* PasswordViewController.swift */,
+				849A1D271E6523C100AF799D /* ZXLockView.swift */,
 				849A1CF91E6514AC00AF799D /* Main.storyboard */,
 				849A1CFC1E6514AC00AF799D /* Assets.xcassets */,
 				849A1CFE1E6514AC00AF799D /* LaunchScreen.storyboard */,
@@ -236,8 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				849A1D001E6514AC00AF799D /* LaunchScreen.storyboard in Resources */,
+				849A1D2C1E65254100AF799D /* 夜空.jpeg in Resources */,
 				849A1CFD1E6514AC00AF799D /* Assets.xcassets in Resources */,
 				849A1CFB1E6514AC00AF799D /* Main.storyboard in Resources */,
+				849A1D2D1E65254100AF799D /* 未选中.png in Resources */,
+				849A1D2E1E65254100AF799D /* 选中.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +281,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				849A1CF81E6514AC00AF799D /* ViewController.swift in Sources */,
+				849A1D281E6523C100AF799D /* ZXLockView.swift in Sources */,
 				849A1CF61E6514AC00AF799D /* AppDelegate.swift in Sources */,
+				849A1D261E65239400AF799D /* PasswordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
