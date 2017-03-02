@@ -52,7 +52,6 @@ class ZXLockView: UIView {
         self.delegate = delegate
         self.lockViewType = lockViewType
         setupUI()
-//        titleLabel.backgroundColor = UIColor.red
         titleLabel.text = title
     }
     
@@ -144,26 +143,28 @@ extension ZXLockView {
     }
     
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
-        getPasswrdFromSelectedBtnTags()
-        guard let lockViewType = lockViewType else {
-            return
+        if selectedButtons.count == 9 {
+            getPasswrdFromSelectedBtnTags()
+            guard let lockViewType = lockViewType else {
+                return
+            }
+            passwordSetCount += 1
+            switch lockViewType {
+            case .set:
+                setPassword()
+            case .change:
+                changePassword()
+            case .test:
+                testPassword()
+            }
         }
-        passwordSetCount += 1
-        switch lockViewType {
-        case .set:
-            setPassword()
-        case .change:
-            changePassword()
-        case .test:
-            testPassword()
-        }
-        for btn in allButtons {
-            btn.isSelected = false
-        }
-        
-        self.selectedButtons.removeAll()
-        
-        setNeedsDisplay()
+            for btn in allButtons {
+                btn.isSelected = false
+            }
+            
+            self.selectedButtons.removeAll()
+            
+            setNeedsDisplay()
     }
     
 }
